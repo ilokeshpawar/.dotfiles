@@ -16,3 +16,6 @@ keymap.set("n", "<leader>vs", "<cmd>vsplit<CR>", { desc = "[v]ertically [s]plit 
 -- Move between tabs
 keymap.set("n", "<leader>j", "gt", { desc = "Go to the next tab to the left", remap = false, silent = true })
 keymap.set("n", "<leader>k", "gT", { desc = "Go to the next tab to the right", remap = false, silent = true })
+
+-- Neotree toggle keymap
+keymap.set("n", "<C-b>", "<cmd>Neotree toggle<CR>", { desc = "Toggle Neotree window", remap = false, silent = true })
