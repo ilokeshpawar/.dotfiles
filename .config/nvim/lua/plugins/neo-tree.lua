@@ -13,8 +13,8 @@ return {
     "s1n7ax/nvim-window-picker",
     version = "2.*",
     config = function()
-      local neo_tree = require("window-picker")
-      neo_tree.setup({
+      local picker = require("window-picker")
+      picker.setup({
 	hint = "floating-big-letter",
 	show_prompt = true,
 	prompt_message = "Pick window: ",

@@ -5,9 +5,10 @@ return {
     name = "catppuccin",
     priority = 1000,
     config = function()
-      local cat_theme = require("catppuccin")
-      cat_theme.setup({
+      local theme = require("catppuccin")
+      theme.setup({
 	-- Configuration goes here
+	transparent_background = true,
       })
       vim.cmd.colorscheme "catppuccin"
     end

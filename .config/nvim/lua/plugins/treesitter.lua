@@ -10,6 +10,7 @@ return {
 	ensure_installed = { "lua", "python", "javascript", "typescript", "css", "csv", "html" },
 	auto_install = true,
 	highlight = { enable = true },
+    indent = { enable = true },
       })
     end
     },
