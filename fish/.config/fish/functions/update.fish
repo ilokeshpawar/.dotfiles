@@ -11,4 +11,8 @@ function update
     bun upgrade
     echo upgrading outdated npm packages
     npm update -g
+    echo upgrading atuin
+    atuin update
+    echo upgrading cargo \& rustc
+    rustup update
 end
