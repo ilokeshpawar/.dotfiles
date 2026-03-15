@@ -8,7 +8,7 @@ function update
     deno upgrade
     echo
     echo upgrading bun
-    bun upgrade
+    curl -fsSL https://bun.com/install | bash
     echo upgrading outdated npm packages
     npm update -g
     echo upgrading atuin
