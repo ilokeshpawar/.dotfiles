@@ -52,4 +52,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/home/lokesh/\x2elocal/share/nvm/v25\x2e8\x2e0/bin\x1e/home/lokesh/\x2elocal/opt
+SETUVAR fish_user_paths:/home/lokesh/\x2elocal/share/nvm/v26\x2e3\x2e1/bin\x1e/home/lokesh/\x2elocal/share/nvm/v25\x2e8\x2e0/bin\x1e/home/lokesh/\x2elocal/opt
